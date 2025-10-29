@@ -23,7 +23,8 @@ if ( age < 18 ) {
 } else {
     finalTotalPrice = totalPrice;
 }
-    
+
 
 //conclusione
 alert(`il costo del biglietto è ${finalTotalPrice.toFixed(2)} €`);
+document.getElementById("result").innerHTML = `il costo del biglietto è ${finalTotalPrice.toFixed(2)} €`;
